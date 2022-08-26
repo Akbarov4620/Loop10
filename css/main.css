@@ -1,0 +1,246 @@
+*{
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0;
+    font-family: 'Roboto' , sans-serif;
+    font-weight: 500;
+    text-decoration: none;
+    list-style: none;
+    color: rgb(51, 51, 51);
+}
+
+body{
+    background-image: url(../img/watches.jpg);
+    background-repeat: no-repeat;
+    background-position: left 1030px top 95px;
+    background-size: 715px;
+}
+
+.container{
+    max-width: 1200px;
+    padding: 0 ;
+    margin: 0 auto;
+}
+
+.size-14px{
+    font-size: 14px;
+}
+
+.size-18px{
+    font-size: 18px;
+}
+
+.btn{
+    display: inline-block;
+    background-color: rgb(234, 98, 92);
+    padding: 10px 15px;
+    cursor: pointer;
+    margin-top: 35px;
+}
+
+.btn:hover{
+    background-color: rgb(187, 101, 96);
+}
+
+.text{
+    margin: 0;
+    padding-left: 30px;
+    border-left: 3px solid rgb(141, 141, 141);
+    width: 390px;
+}
+
+.grey{
+    color: rgb(153, 153, 153);
+}
+
+.white{
+    color: #fff;
+    line-height: 25px; 
+}
+
+.line-height{
+    line-height: 25px; 
+}
+
+.orange{
+    color: rgb(234, 98, 92);
+    font-weight: 700;
+    margin: 0;
+    margin-left: 10px;
+}
+
+.heading{
+    font-weight: 700;
+    font-size: 43px;
+    line-height: 50px;
+}
+
+.hidden{
+    display: none;
+}
+
+input{
+    border: none;
+    border-bottom: 1px solid rgb(141, 141, 141) ;
+}
+.line{
+    display: block;
+    width: 1310;
+    height: 1px;
+    background-color: rgb(141, 141, 141);
+    margin: 252px 0 40px;
+}
+
+h3{
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+
+/*HEADER*/
+.main-header{
+    height: 60px;
+    width: 100%;
+    background-color: #fff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+
+nav{
+    margin: 0;
+}
+
+h1{
+    margin: 0;
+}
+
+.main-header__list{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 35px;
+    margin-left: 500px;
+}
+
+.main-header__list li a:hover{
+    color: rgb(51, 51, 51);
+    border-bottom: 2px solid rgb(51, 51, 51);
+}
+
+/*HERO-SECTION*/
+.hero-section__inner{
+    margin: 0;
+}
+
+.hero-section__inner h2{
+    margin: 0;
+    margin: 160px 0 55px;
+}
+
+/*SPORT-SECTION*/
+.sport-section__list{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 100px;
+}
+
+.sport-section__list li{
+    margin: 0;
+    width: 300px;
+    line-height: 25px;
+}
+
+.circle{
+    display: inline-block;
+    width: 5px;
+    height: 5px;
+    background-color: rgb(153, 153, 153);
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.learn{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-top: 25px;
+    cursor: pointer;
+}
+
+.line-orange{
+    display: inline-block;
+    margin: 0;
+    width: 30px;
+    height: 2.3px;
+    background-color: rgb(234, 98, 92);
+}
+
+.learn:hover .line-orange{
+    width: 40px;
+}
+
+.sport-section__mini{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.sport-section__image{
+    margin-top: 75px;
+    margin-bottom: 40px;
+}
+
+.sport-section__text{
+    margin: 0;
+}
+
+.sport-section__text h2{
+    width: 330px;
+    margin: 0;
+    margin: 215px 120px 65px 0;
+}
+
+
+/*FOOTER*/
+footer{
+    background-image: url(../img/runners.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 210px 0 200px ;
+}
+
+.main-footer__inner{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    margin-left: 645px;
+}
+
+.main-footer__inner h2{
+    margin: 0;
+    margin-bottom: 60px;
+    width: 400px;
+}
+
+.main-footer__inner span{
+    margin-left: 0;
+}
+
+.white-line{
+    border-left:3px solid #fff;
+}
